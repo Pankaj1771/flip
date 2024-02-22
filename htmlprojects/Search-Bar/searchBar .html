@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="search1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body> 
+      <div class="box">
+        <div class="search" id="search">
+          <input type="text" placeholder="Search"  >
+          <label class="search=icon" id="searchIcon">
+              <i class='bx bx-search'></i>
+          </label>
+        </div>
+      </div>
+
+
+      <script>
+          var y = document.getElementById("searchIcon");
+          var z = document.getElementById("search"); 
+          y.onclick= function(){
+            z.classList.toggle("active");
+          }
+      </script>
+  </body>
+</html>
